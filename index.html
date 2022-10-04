@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceará [D]ev_</title>
+  <link rel="icon" type="image/x-icon" href="img/logo-ceara-dev.png"> <!-- Icone la em cima da pagina Favicon-->
+  <!-- Fonte do Texto -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Fonte Icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  
+</head>
+
+<body>
+  <header id="event-subscription">
+    <div id="disclaimer"> <!-- Parte das tecnologia, detalhes evento , imagem ,etc-->
+      <img src="img/logo-ceara-dev.png" alt="logo-inicial">
+      <h2>Ceará [D]ev_</h2>
+      <p class="about-event">
+        Um evento para desenvolvedores do estado do Ceará! Bora participar, Dev?
+      </p>
+      <p>evento {</p>
+      <p class="event-date">String diaDaSemana = "Sexta";</p>
+      <p class="event-date">int diaDoEvento = 10;</p>
+      <p class="event-date">String duracaoEvento = "14h às 17h"</p>
+      <p class="event-date">String mesEvento = "Julho";</p>
+      <p>}</p>
+      <p>
+      <p>Tecnologias do evento:</p>
+      <img src="img/csharp-logo.png" alt="csharp" class="img-1">
+      <img src="img/java-logo.png" alt="java" class="img-2">
+      <img src="img/javascript-logo.png" alt="javascript" class="img-3">
+      <img src="img/python-logo.png" alt="python" class="img-4">
+      </p>
+    </div> <!-- Fim Detalhes Disclaimer-->
+    <div id="subscription-form"> <!-- Formulario-->
+      <p>Preencha o formulário para receber os detalhes do evento, bem como a sua sessão dev de preferência.</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" placeholder="Digite seu nome" />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="Digite seu melhor e-mail" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input type="text" placeholder="Número de Whatsapp" />
+        </div>
+        <div class="form-group">
+          <label for="interest">Sessão DEV de preferência</label>
+          <select name="interest">
+            <option value="" disabled selected>Selecione</option>
+            <option value="apartment">Java</option>
+            <option value="house">C#</option>
+            <option value="garden">JavaScript</option>
+            <option value="other">Python</option>
+          </select>
+        </div>
+        <input type="submit" class="btn" value="Quero me inscrever"/>
+      </form>
+    </div> <!-- fim forms-->
+  </header>
+  <section id="key-benefits"> <!-- Benefits(o que vamos ver/features)-->
+    <h2>O que vamos ver no evento:</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <div id="benefit-1" class="benefit-img"></div>
+        <p>
+          Presença ilustre do Professor Dr. Nélio Alves, o professor mais assistido na categoria tecnologia
+          da Udemy
+        </p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-2" class="benefit-img"></div>
+        <p>
+          Sessão oficial da Microsoft Brasil com novidades, testes e programação em C#
+        </p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-3" class="benefit-img"></div>
+        <p>
+          Sessão oficial da Oracle com novidades, testes e programação em Java
+        </p>
+      </div>
+    </div>
+  </section> <!-- Fim features -->
+  <section id="location">  <!-- Inicio da sessao da location e info-->
+    <div id="address">
+      <i class="bi bi-geo-alt-fill"></i>
+      <div id="address-details">
+        <p>Av. Washington Soares, 999</p>
+        <p>Edson Queiroz, Fortaleza - CE</p>
+        <p>Centro de Eventos do Ceará</p>
+        <p>Abertura: 14h</p>
+      </div>
+    </div>
+    <div id="about-location">
+      <h3>Centro de Eventos!</h3>
+      <p>
+        O evento será realizado em um local prestigiado pelos amantes de arte, cultura, tecnologia
+        e muito mais! O local já realizou grandes eventos como o SANA Fest, Bienal do Livro etc.
+      </p>
+    </div>
+  </section> <!-- fim da sessao da location e info-->
+  <section id="details"> <!-- Sessao detalhes, sobre-->
+    <div class="detail" id="detail-1">
+      <img src="img/foto-sobre-1.png" alt="sobre-1" />
+      <div class="detail-description">
+        <h3>Conheça um pouco mais sobre o evento...</h3>
+        <p>Desde 2018 no Ceará realizando eventos, organizado pelo Governo do Estado em parceria com o Juventudade
+          Digital</p>
+      </div>
+    </div>
+    <div class="detail" id="detail-2">
+      <div class="detail-description">
+        <h3>Sorteios realizados:</h3>
+        <ul>
+          <li>Assinatura da Alura</li>
+          <li>Cursos de Java e C# do professor Nélio Alves</li>
+          <li>Curso de OracleDB</li>
+          <li>Livros: Clean Code, Java, C#.</li>
+          <li>E muito mais...</li>
+        </ul>
+      </div>
+      <img src="img/foto-sobre-2.jpg" alt="sobre-2" />
+    </div>
+    <div class="detail" id="detail-3">
+      <img src="img/foto-sobre-3.png" alt="sobre-3" />
+      <div class="detail-description">
+        <h3>Competições</h3>
+        <ul>
+          <li>Competição e desafios realizados na plataforma Beecrowd</li>
+          <li>Testes de lógica</li>
+          <li>Conhecimentos em POO</li>
+          <li>FastBrainFastCode</li>
+          <li>Conhecimento em documentação</li>
+          <li>E muito mais...</li>
+        </ul>
+      </div>
+    </div>
+  </section> <!-- Fim Sessao detalhes, sobre-->
+  <section>
+    <div class="video-section">
+      <h1 class="header-video">Assista o vídeo abaixo para entender como funciona o evento</h1>
+      <video id="video" src="video/video.mp4" controls></video>
+    </div>
+  </section>
+  <h3 class="header-opiniao">Veja a opinião de pessoas que vieram ao nosso evento em outras edições:</h3>
+  <section class="main"> <!--Começo opiniao-->
+    <div class="full-boxer">
+        <div class="comment-box">
+            <div class="box-top">   <!-- Name: Nome da opiniao, Comment: comentario da pessoa, imagem : imagem da pessoa que opinia-->
+                <div class="Profile">
+                    <div class="profile-image">
+                        <img src="img/luva-de-pedreiro.jpg">
+                    </div>
+                    <div class="Name">
+                        <strong>Iran Ferreira (Luva de Pedreiro)</strong>
+                        <span>Influenciador Digital</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    Receba! Muito bom.
+                </p>
+            </div>
+        </div>
+
+        <div class="comment-box">
+            <div class="box-top">
+                <div class="Profile">
+                    <div class="profile-image">
+                        <img src="img/batman.png">
+                    </div>
+                    <div class="Name">
+                        <strong>Bruce Wayne</strong>            
+                        <span>Empresário</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    Excelente evento, voltarei mais vezes.
+                </p>
+            </div>
+        </div>
+
+        <div class="comment-box">
+            <div class="box-top">
+                <div class="Profile">
+                    <div class="profile-image">
+                        <img src="img/clark-kent.jpg">
+                    </div>
+                    <div class="Name">
+                        <strong>Clark Kent</strong>
+                        <span>Jornalista</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    Excelente conteúdo e aprendizado, recomendo.
+                </p>
+            </div>
+        </div>
+    </div>
+  </section> <!--Fim opiniao-->
+  <section id="cta"> <!-- CTA Para participar do evento-->
+    <h3>Rodou o site até aqui e não encontrou nenhum bug? Então bora participar!</h3>
+    <form>
+      <div class="form-group row">
+        <label for="nome" class="col-sm-2 col-form-label" id="input-final">Seu nome</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" placeholder="Digite seu nome aqui :)">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="email" class="col-sm-2 col-form-label" id="input-final">Seu e-mail</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" placeholder="Digite seu e-mail aqui :)">
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <input type="submit" class="btn btn-2" value="Quero me inscrever"/>
+        </div>
+      </div>
+    </form>
+  </section> <!-- fim cta evento participar-->
+  <footer id="footer"> <!--Parte de baixo (Footer)-->
+    <br><br><br>
+    <div>
+      <img src="img/logo-ceara-dev.png" alt="logo-inicial" class="logo-fim-pagina">
+    </div>
+    <h3>Ceará [D]ev_</h3>
+    <p>Conectando você ao mundo</p>
+    <p><span>Contato:</span> contato@cedev.com.br</p>
+    <p><span>Telefone:</span> +55 (85) 91234-5678</p>
+    <p><span>CEARA DEV EVENTOS TECNOLOGICOS LTDA - Todos os direitos reservados.</span></p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
